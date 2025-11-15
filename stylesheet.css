@@ -1,0 +1,68 @@
+body {
+    background:rgb(201, 201, 204); ;
+    background-size: cover;
+    position: fixed; 
+}
+div.text {
+    padding-left: 600px;
+    padding-top: 750px;
+    font-size: 80px;
+    width: 1620px;
+}
+div.photo{
+    margin-top: -1080px;
+    margin-left: 2800px;
+}
+button{
+    background:rgb(7, 7, 7);
+    margin-top: 100px;
+    margin-left: 600px;
+    border-top-right-radius:150px ;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius:150px ;
+}
+h3.tan{
+    margin-left: 2800px;
+    margin-top: -280px;
+    font-size: 80px;
+}
+p.tan{
+    margin-left: 2800px;
+    margin-top: -60px;
+    font-size: 60px;
+}
+h3.b{
+    margin-left: 2800px;
+    margin-top: -40px;
+    font-size: 70px;
+}
+h3.ta{
+    margin-left: 3920px;
+    margin-top: -420px;
+    font-size: 80px;
+}
+p.ta{
+    margin-left: 3920px;
+    margin-top: -60px;
+    font-size: 60px;
+}
+h3.a{
+    margin-left: 3920px;
+    margin-top: -40px;
+    font-size: 70px;
+}
+h3.t{
+    margin-left: 5000px;
+    margin-top: -420px;
+    font-size: 80px;
+}
+p.t{
+    margin-left: 5000px;
+    margin-top: -60px;
+    font-size: 60px;
+}
+h3.c{
+    margin-left: 5000px;
+    margin-top: -40px;
+    font-size: 70px;
+}

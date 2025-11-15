@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            margin: 150px;
+            background: #202b07;
+        }
+
+        .div1 {
+            border-radius: 25px;
+            width: 750px;
+            height: 500px;
+            background-color: rgb(248, 249, 250);
+            position: fixed;
+            left: 300px;
+        }
+
+        .div2 {
+            position: absolute;
+            left: 400px;
+            border-radius: 25px;
+            width: 350px;
+            height: 500px;
+        }
+
+        .div2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .div3 {
+            display: flex;
+            position: absolute;
+            background-color: rgb(255, 253, 253);
+            border-radius: 25px;
+            width: 400px;
+            height: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .h1 {
+            position: absolute;
+            top: 20px;
+            left: 120px;
+        }
+
+        .div4 {
+            position: absolute;
+            top: 100px;
+            left: 50px;
+            width: 300px;
+            display: block;
+        }
+
+        label {
+            display: block;
+            padding-left: 10px;
+            font-size: small;
+            color: #424141;
+            font-weight: 600;
+
+        }
+
+        input[type=email] {
+            width: 86%;
+            padding: 12px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input[type=password] {
+            width: 95%;
+            padding: 12px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 95%;
+            background-color: #300adb;
+            color: white;
+            padding: 11px;
+            margin-top: 10px;
+            margin-left: 9px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #0922fc;
+        }
+
+        input[type=checkbox] {
+            margin-left: 9px;
+        }
+
+
+        .text1 {
+            position: absolute;
+            top: 227px;
+            left: 14px;
+            font-size: 11px;
+            color: #919291;
+        }
+
+        .or {
+            position: absolute;
+            left: 138px;
+            top: 290px;
+            font-size: 14px;
+            color: #171817;
+        }
+
+        
+
+        .div5 img {
+           position: absolute;
+           left: 60px;
+        }
+
+        .p {
+
+            display: inline;
+            color: #121313;
+            font-size: 11px;
+            vertical-align: top;
+           position: relative;
+           left:144px;
+           top: 4px;
+        }
+
+        input[type=text],
+        select {
+           width: 95%;
+            padding: 12px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .app{
+           position: absolute;
+           top: 158px;
+        }
+        .goo{position: absolute;
+           top: 330px;
+           left: 70px;
+        }
+        .fac{position: absolute;
+           top: 328px;
+           left: 125px;}
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <img src="k/shiva.jpg" alt="motiv" width="400" height="300">
+        </div>
+        <div class="div3">
+            <h3 class="h1">Welcome Home</h3>
+            <form action="/action_page.php">
+                <div class="div4">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="firstname" placeholder="First name"required>
+
+                    <label for="lname"></label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name"required>
+
+                    <label for="fname"></label>
+                    <input type="email" id="fname" name="firstname" placeholder="Email" required>
+                    <label for="pass"></label>
+                    <input type="password" id="pass" name="pass" placeholder="Password" required><br>
+                    <input type="checkbox" id="vehicle1" name="p" value="Bike">
+                    <label class="text1" for="vehicle1">Remember for 30 days</label>
+                    <p class="p"><a href=" accounts.google.com">Forget password?</a></p>
+                    <input type="submit" value="Login"><br>
+                    <p class="or">or</p><br>
+                    <div class="div5">
+                        <div class="app"><img class="app" src="download (4).png" alt="apple" style="width: 50px; height: 50px;"></div>
+                      <div class="goo"><img src="download (3).png"alt="google"style= "width: 30px; height: 30px;"></div>
+                       <div class="fac"><img  src="download (5).png"alt="face" style="width: 35px; height: 35px;"></div>
+                                              
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            margin: 150px;
+            background: #202b07;
+        }
+
+        .div1 {
+            border-radius: 25px;
+            width: 750px;
+            height: 500px;
+            background-color: rgb(248, 249, 250);
+            position: fixed;
+            left: 300px;
+        }
+
+        .div2 {
+            position: absolute;
+            border-radius: 25px;
+            width: 350px;
+            height: 500px;
+        }
+
+        .div2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .div3 {
+            display: flex;
+            position: absolute;
+            left: 350px;
+            top: 20px;
+            border-radius: 25px;
+            width: 400px;
+            height: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .h1 {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+
+        .div4 {
+            position: absolute;
+            top: 120px;
+            left: 50px;
+            width: 350px;
+            display: block;
+        }
+
+        label {
+            display: block;
+            padding-left: 10px;
+            font-size: small;
+            color: #424141;
+            font-weight:600;
+
+        }
+
+        input[type=email] {
+            width: 70%;
+            padding: 12px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type=password] {
+            width: 77%;
+            padding: 12px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 77%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px;
+            margin-top: 10px;
+            margin-left: 9px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        input[type=checkbox] {
+            margin-left: 9px;
+        }
+
+
+        .text1 {
+            position: absolute;
+            top: 144px;
+            left: 14px;
+            font-size: small;
+            color: #919291;
+        }
+
+        .or {
+            position: absolute;
+            left: 138px;
+            font-size: small;
+            color: #919291;
+        }
+
+        .div5 {
+            border: solid 1px;
+            width: 70%;
+            border-radius: 6px;
+            position: absolute;
+            top: 260px;
+            left: 9px;
+            padding: 10px;
+            border-color: #a7daf8;
+        }
+
+        .div5 img {
+            height: 15px;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .p {
+
+            display: inline;
+            color: #121313;
+            font-size: small;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <img src="k/3d5c843ebd8aca17bbb21cff44a7eaf9.jpg" alt="motiv" width="400" height="300">
+        </div>
+        <div class="div3">
+            <h1 class="h1">Sign up</h1>
+            <form action="/action_page.php">
+                <div class="div4">
+                    <label for="fname">Email address</label>
+                    <input type="email" id="fname" name="firstname" placeholder="Enter your Email" required>
+                    <label for="pass">Set password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Enter password" required><br>
+                    <input type="checkbox" id="vehicle1" name="p" value="Bike">
+                    <label class="text1" for="vehicle1"> Show Password</label><br>
+                    <input type="submit" value="Sign up"><br>
+                    <p class="or">or</p><br>
+                    <div class="div5">
+                        <img src="k/download (2).png" alt="google">
+                        <p class="p" ><a href=" accounts.google.com">Continue with Google</a></p> 
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            margin: 200px;
+            background: #81c8f7;
+        }
+
+        .d {
+            border-radius: 25px;
+            width: 250px;
+            height: 400px;
+            background-color: rgb(3, 161, 201);
+            position: fixed;
+            left: 500px;
+            top: 180px;
+        }
+
+        .dd {
+            border-radius: 25px;
+            width: 250px;
+            height: 400px;
+            background-color: rgb(3, 161, 201);
+            position: fixed;
+            left: 800px;
+            top: 180px;
+        }
+
+        .w {
+            position: absolute;
+            top: 10px;
+            border-radius: 25px 25px 120px 120px;
+            background-color: white;
+            width: 250px;
+            height: 189px;
+        }
+
+
+        .q {
+            position: absolute;
+            top: 5px;
+            height: 189px;
+            width: 250px;
+            background-color: rgb(3, 161, 201);
+            border-radius: 25px 25px 120px 120px;
+        }
+
+        .e {
+            position: absolute;
+            height: 189px;
+            width: 250px;
+            background-color: white;
+            border-radius: 25px 25px 130px 130px;
+
+        }
+
+        .r {
+            height: 240px;
+            width: 250px;
+            background-color: rgb(4, 7, 12);
+            position: absolute;
+            top: 160px;
+            border-radius: 10px 10px 25px 25px;
+        }
+
+        .rr {
+            height: 222px;
+            width: 250px;
+            background-color: rgb(250, 251, 252);
+            position: absolute;
+            top: 160px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .t {
+            position: absolute;
+            height: 199px;
+            width: 250px;
+            background-color: rgb(3, 161, 201);
+            border-radius: 25px 25px 111px 111px;
+        }
+
+        .a {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            background-color: rgb(255, 255, 255);
+            outline-style: inset;
+            outline-offset: 6px;
+            outline-color: rgb(119, 113, 113);
+            outline-width: 2px;
+            border-radius: 50%;
+            border-color: rgb(3, 161, 201);
+            border: 20px;
+        }
+
+        .c {
+
+            width: 200px;
+            position: absolute;
+            top: 30px;
+            left: 45px;
+        }
+
+        .o {
+            position: absolute;
+            top: 2px;
+            left: 45px;
+            color: rgb(4, 7, 12);
+            font-size: 14px;
+            font-weight: bold;
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2.b {
+            position: absolute;
+            top: 185px;
+            left: 50px;
+            color: rgb(3, 161, 201);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2.z {
+            position: absolute;
+            top: 185px;
+            left: 125px;
+            color: rgb(244, 244, 247);
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .f {
+            position: absolute;
+            top: 215px;
+            left: 70px;
+            opacity: 70%;
+            color: rgb(218, 217, 219);
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .n {
+            display: block;
+            position: absolute;
+            top: 255px;
+            left: 55px;
+            opacity: 80%;
+            color: rgb(3, 161, 201);
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        hr {
+            width: 180px;
+            position: absolute;
+            top: 245px;
+            left: 35px;
+        }
+
+        .p {
+            display: block;
+            direction: rtl;
+            position: absolute;
+            top: 255px;
+            right: 55px;
+            opacity: 80%;
+            color: rgb(236, 239, 240);
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cd {
+            border: solid 2px rgb(4, 186, 247);
+            position: absolute;
+            top: 335px;
+            left: 35px;
+            width: 180px;
+            height: 35px;
+            border-radius: 40px;
+            background-color: white;
+        }
+
+        .dc {
+            height: 25px;
+            width: 155px;
+            position: absolute;
+            top: 5px;
+            left: 12px;
+        }
+
+        .ww {
+            position: absolute;
+            top: 10px;
+            border-radius: 25px 25px 120px 120px;
+            background-color: rgb(4, 7, 12);
+            width: 250px;
+            height: 189px;
+        }
+
+        .ee {
+            position: absolute;
+            height: 189px;
+            width: 250px;
+            background-color: rgb(4, 7, 12);
+            border-radius: 25px 25px 130px 130px;
+        }
+
+        .oo {
+            position: absolute;
+            top: 2px;
+            left: 45px;
+            color: rgb(249, 249, 253);
+            font-size: 14px;
+            font-weight: bold;
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .xx {
+            position: absolute;
+            top: 56px;
+            right:35px;
+            color: rgb(190, 190, 194);
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .rrr{
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .rx{
+            position: absolute;
+            top: 50px;
+            left: 25px;
+        }
+        .xr{
+            position: absolute;
+            top: 80px;
+            left: 25px;
+        }
+        .xrr{
+            position: absolute;
+            top: 88px;
+            left: 1px;
+        }
+        
+        .rxrr{
+            position: absolute;
+            top: 118px;
+            left: 1px;
+        }
+    
+        .rxr{
+            position: absolute;
+            top: 110px;
+            left: 25px;
+        }
+
+    .cx{
+            position: absolute;
+            top: 185px;
+            left: 25px;
+            font-size: 9px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .xcc {
+            border: solid 1px rgb(92, 92, 92);
+            position: absolute;
+            top: 192px;
+            left: 70px;
+            width: 45px;
+            height: 12px;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .ccx{
+            position: absolute;
+            top: 185px;
+            left: 130px;
+            font-size: 9px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .xxc {
+            border: solid 1px rgb(92, 92, 92);
+            position: absolute;
+            top: 192px;
+            left: 180px;
+            width: 45px;
+            height: 12px;
+            border-radius: 5px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d">
+        <div class="r"></div>
+        <div class="t">
+            <div class="w"></div>
+            <div class="q"></div>
+            <div class="e">
+                <div class="c">
+                    <img src="k/download (1).png" alt="lo" style="width: 45px;height: 45px;">
+                    <p class="o">Axiom techguru</p>
+                </div>
+                <div class="a"><img src="k/01c9497a4bb26658e3868bf365178967.jpg" alt="id"
+                        style="height: 90px; width: 90px;border-radius: 50%;object-fit: cover; ">
+                </div>
+                <h2 class="b">Nayan</h2>
+                <h2 class="z">Itankar</h2>
+                <p class="f">Inter developer</p>
+                <hr>
+                <div class="n">
+                    <p>ID No. :</p>
+                    <p>Phone :</p>
+                    <p>Blood. :</p>
+                </div>
+                <div class="p">
+                    <p>4321126546986</p>
+                    <p>9370798714+</p>
+                    <p>+AB</p>
+                </div>
+                <div class="cd">
+                    <img class="dc" src="Barcode.png" alt="l">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dd">
+        <div class="rr">
+            <div class="rrr">
+                <h5>Terms And Conditions</h5>
+                <img class="rrx" src="square-check-solid-full.svg" alt="s" style=" height: 25px;width: 25px;">
+                <p class="rx" style="font-size: 10px; width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
+                </p>
+                <img class="xrr" src="square-check-solid-full.svg" alt="s" style=" height: 25px;width: 25px;">
+                <p class="xr" style="font-size: 10px; width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
+                </p>
+                <img class="rxrr" src="square-check-solid-full.svg" alt="s" style=" height: 25px;width: 25px;">
+                <p class="rxr" style="font-size: 10px; width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
+                </p>
+            </div>
+            <div class="xc">
+                    <p class="cx">Issus Date</p>
+                    <div  class="xcc"style=" font-size: 9px;font-family: Arial, Helvetica, sans-serif;text-align: center;">01/02/20</div>
+                    <p class="ccx">Expire Date</p>
+                    <div  class="xxc" style=" font-size: 9px;font-family: Arial, Helvetica, sans-serif;text-align: center;">01/02/25</div>
+            </div>
+        </div>
+        <div class="t">
+            <div class="ww"></div>
+            <div class="q"></div>
+            <div class="ee">
+                <div class="aa"></div>
+                <div class="c">
+                    <img src="k/download (1).png" alt="lo" style="width: 45px;height: 45px;">
+                    <p class="oo">Axiom techguru</p>
+
+                    <div class="xx">
+                        <p><img src="paper-plane-solid-full (2).svg" alt="s" style=" height: 13px;width: 13px;vertical-align: text-top;">
+                            contact@Axiomtechguru.com</p>
+                        <p><img src="globe-solid-full.svg" alt="sa" style=" height: 13px;width: 13px;vertical-align: text-top;">
+                            www.Axiomtechguru.com</p>
+                        <p><img src="location-dot-solid-full.svg" alt="sa" style=" height: 13px;width: 13px;vertical-align: text-top;">
+                            245 North 13th Street, Office 103</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
